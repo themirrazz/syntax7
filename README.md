@@ -31,4 +31,44 @@ For example, some coding editors make keywords bold.
 `insert7` - Used for content between the brackets in backtick-type strings in ES6 (eg `` `my string${0}` ``)
 `comment7` - The color comments are displayed in.
 
+## Supported Platforms
+
+### Desktop Browsers
+
+**Chrome** *partialy tested* - 99 and above
+**Firefox** - Not tested
+**Internet Explorer** - Not tested
+**Netscape Navigator** - Not tested
+**Opera** - Not tested
+**Brave** - Not tested
+**Safari** - Not tested
+**Microsoft Edge** - Not tested
+
+### Mobile Browsers
+**Chrome (Android)** - Not tested
+**Chrome (iOS)** - Not tested
+**Safari for iOS** - Not tested
+**Brave (Android)** - Not tested
+**Brave (iOS)** - Not tested
+**Opera Mini** - Not tested
+**Opera Mobile** - Not tested
+**Samsung Internet** - Not tested
+**Android WebView** - Not tested
+
+### Browsers for Smart TVs
+**Firefox for Fire TV** - Not tested
+**Samsung Internet** - Not tested
+**Amazon Silk** - Not tested
+
+### Browsers for Gaming Consoles
+**Microsoft Edge (Xbox)** - Not tested
+**Web Browser for Nintendo 3DS** - Not tested
+**Nintendo Switch Captive Portal Browser** - Not tested
+
+
+
+## Live Demo
+
 For a live demo, see https://syntax7.awesomecrater.repl.co
+
+
