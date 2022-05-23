@@ -22,6 +22,8 @@ It returns generated HTML, eg:
 * **Darker green** - uses a darker but more readable green in the Demo
 * **Ticks are now strings** - uses the 'string7' element instead of 'tick7' for ECMAScript multi-line strings
 * **Grey Comments** - the Demo now colors comments grey instead of red
+* **Fullwidth editor** - the editor is no longer a seperate raw and colored editor, but is now combined!
+* **MakeCode for uBit** - there is now an offical Micro:bit version (except micro:bit can't display HTML so...)
 
 
 ##  How to use custom highlighting
