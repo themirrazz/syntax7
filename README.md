@@ -15,21 +15,24 @@ It returns generated HTML, eg:
 <kw7>var</kw7>&nbsp;thing=0;&nbsp; <comment7>//&nbsp;your&nbsp;code&nbsp;here</comment7>
 ```
 
-## Features:
+## What's New in v0.0.2
 
-### Auto HTML Escape
-Escapes HTML (including spaces and line breaks) so you don't have too! You also don't have to feed it into a pre; you could use a paragraph, div, or even tr!
+* **Numbers** - now supports syntax highlighting numbers
+* **More keywords** - recognizes "class" and "enum" as keywords
+* **Darker green** - uses a darker but more readable green in the Demo
+* **Ticks are now strings** - uses the 'string7' element instead of 'tick7' for ECMAScript multi-line strings
 
-### Custom Highlighting
+
+##  How to use custom highlighting
 Instead of using font or span tags to apply styles, it uses a set of custom tags. This allows for custom styling, and more than just coloring.
 For example, some coding editors make keywords bold.
 
 `kw7` - A keyword.<br>
 `string7` - A string.<br>
 `integer7` - An integer, decimal, float, or number.<br>
-`tick7` - Used for the backtick-type strings in ES6. Will use `string7` in the future.<br>
+`tick7` - Used for the backtick-type strings in ES6. Only used in v0.0.1
 `insert7` - Used for content between the brackets in backtick-type strings in ES6 (eg `` `my string${0}` ``)
-`comment7` - The color comments are displayed in.
+
 
 ## Supported Platforms
 
