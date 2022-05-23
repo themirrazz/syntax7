@@ -35,35 +35,35 @@ For example, some coding editors make keywords bold.
 
 ### Desktop Browsers
 
-**Chrome** *partialy tested* - 99 and above
-**Firefox** - Not tested
-**Internet Explorer** - Not tested
-**Netscape Navigator** - Not tested
-**Opera** - Not tested
-**Brave** - Not tested
-**Safari** - Not tested
-**Microsoft Edge** - Not tested
+**Chrome** *partialy tested* - 99 and above<br>
+**Firefox** - Not tested<br>
+**Internet Explorer** - Not tested<br>
+**Netscape Navigator** - Not tested<br>
+**Opera** - Not tested<br>
+**Brave** - Not tested<br>
+**Safari** - Not tested<br>
+**Microsoft Edge** - Not tested<br>
 
 ### Mobile Browsers
-**Chrome (Android)** - Not tested
-**Chrome (iOS)** - Not tested
-**Safari for iOS** - Not tested
-**Brave (Android)** - Not tested
-**Brave (iOS)** - Not tested
-**Opera Mini** - Not tested
-**Opera Mobile** - Not tested
-**Samsung Internet** - Not tested
-**Android WebView** - Not tested
+**Chrome (Android)** - Not tested<br>
+**Chrome (iOS)** - Not tested<br>
+**Safari for iOS** - Not tested<br>
+**Brave (Android)** - Not tested<br>
+**Brave (iOS)** - Not tested<br>
+**Opera Mini** - Not tested<br>
+**Opera Mobile** - Not tested<br>
+**Samsung Internet** - Not tested<br>
+**Android WebView** - Not tested<br>
 
 ### Browsers for Smart TVs
-**Firefox for Fire TV** - Not tested
-**Samsung Internet** - Not tested
-**Amazon Silk** - Not tested
+**Firefox for Fire TV** - Not tested<br>
+**Samsung Internet** - Not tested<br>
+**Amazon Silk** - Not tested<br>
 
 ### Browsers for Gaming Consoles
-**Microsoft Edge (Xbox)** - Not tested
-**Web Browser for Nintendo 3DS** - Not tested
-**Nintendo Switch Captive Portal Browser** - Not tested
+**Microsoft Edge (Xbox)** - Not tested<br>
+**Web Browser for Nintendo 3DS** - Not tested<br>
+**Nintendo Switch Captive Portal Browser** - Not tested<br>
 
 
 
