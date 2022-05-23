@@ -21,6 +21,7 @@ It returns generated HTML, eg:
 * **More keywords** - recognizes "class" and "enum" as keywords
 * **Darker green** - uses a darker but more readable green in the Demo
 * **Ticks are now strings** - uses the 'string7' element instead of 'tick7' for ECMAScript multi-line strings
+* **Grey Comments** - the Demo now colors comments grey instead of red
 
 
 ##  How to use custom highlighting
