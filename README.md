@@ -15,14 +15,11 @@ It returns generated HTML, eg:
 <kw7>var</kw7>&nbsp;thing=0;&nbsp; <comment7>//&nbsp;your&nbsp;code&nbsp;here</comment7>
 ```
 
-## What's New in v0.0.3
+## There's some more in v0.0.4
 
-* **true, false, null, undefined** null and empty values and booleans are highlighted
-* **switch it up** JavaScript now sees switch, case, and default as keywords
-* **more class stuff** feel free to use extends, import, and export!
-* **is javascript** instead of using `Syntax7.ecma`, use `Syntax7.javascript`!
-* **Python is here** want to highlight Python code? We've got that covered, with strings, numbers, keywords, and booleans!
-* **highlight,not low light** in the demo, the highlight color is a lighter blue, making it easier to see what you're copying
+* **some NEW keywords** in javascript, we've added the `new` keyword!
+* **Micro:bit Update** we've updated all keywords to the micro:bit, and added Python!
+* **More support** This now works all the way down to IE7! Styling may not work, due to IE's CSS.
 
 
 ##  How to use custom highlighting
@@ -41,7 +38,8 @@ For example, some coding editors make keywords bold.
 * Chrome 99 and above
 * Brave 1.0 and above
 * Firefox 100 and above
-* IE9 or higher
+* IE7 or higher
+* Micro:bit via MakeCode Editor
 
 
 
