@@ -22,6 +22,7 @@ It returns generated HTML, eg:
 * **more class stuff** feel free to use extends, import, and export!
 * **is javascript** instead of using `Syntax7.ecma`, use `Syntax7.javascript`!
 * **Python is here** want to highlight Python code? We've got that covered, with strings, numbers, keywords, and booleans!
+* **highlight,not low light** in the demo, the highlight color is a lighter blue, making it easier to see what you're copying
 
 
 ##  How to use custom highlighting
@@ -37,37 +38,10 @@ For example, some coding editors make keywords bold.
 
 ## Supported Platforms
 
-### Desktop Browsers
-
-**Chrome** *partialy tested* - 99 and above<br>
-**Firefox** - Not tested<br>
-**Internet Explorer** - Not tested<br>
-**Netscape Navigator** - Not tested<br>
-**Opera** - Not tested<br>
-**Brave** - Not tested<br>
-**Safari** - Not tested<br>
-**Microsoft Edge** - Not tested<br>
-
-### Mobile Browsers
-**Chrome (Android)** - Not tested<br>
-**Chrome (iOS)** - Not tested<br>
-**Safari for iOS** - Not tested<br>
-**Brave (Android)** - Not tested<br>
-**Brave (iOS)** - Not tested<br>
-**Opera Mini** - Not tested<br>
-**Opera Mobile** - Not tested<br>
-**Samsung Internet** - Not tested<br>
-**Android WebView** - Not tested<br>
-
-### Browsers for Smart TVs
-**Firefox for Fire TV** - Not tested<br>
-**Samsung Internet** - Not tested<br>
-**Amazon Silk** - Not tested<br>
-
-### Browsers for Gaming Consoles
-**Microsoft Edge (Xbox)** - Not tested<br>
-**Web Browser for Nintendo 3DS** - Not tested<br>
-**Nintendo Switch Captive Portal Browser** - Not tested<br>
+* Chrome 99 and above
+* Brave 1.0 and above
+* Firefox 100 and above
+* IE9 or higher
 
 
 
