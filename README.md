@@ -7,7 +7,7 @@ Currently, the only language you can use is ECMAScript (eg TypeScript or JavaScr
 
 It is very easy to generate syntax highlighting:
 ```js
-Syntax7.ecma("var thing=0; // your code here")
+Syntax7.javascript("var thing=0; // your code here")
 ```
 
 It returns generated HTML, eg:
