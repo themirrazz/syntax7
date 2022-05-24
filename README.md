@@ -23,8 +23,7 @@ It returns generated HTML, eg:
 
 
 ##  How to use custom highlighting
-Instead of using font or span tags to apply styles, it uses a set of custom tags. This allows for custom styling, and more than just coloring.
-For example, some coding editors make keywords bold.
+We've switched to spans. This is for compatibility in IE8 and lower, which doesn't support custom tags. Instead of inline styling, however, we use class names. Just add a `.` (eg `.kw7` instead of `kw7`) and you'll be good to go! The demo doesn't work in IE7, we aren't sure about the actuall parser.
 
 `kw7` - A keyword.<br>
 `string7` - A string.<br>
