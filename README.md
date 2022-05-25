@@ -31,7 +31,7 @@ Syntax7 itself is still supported in IE5+, and the demo is still being supported
 ### From
 Using the `Syntax.util.from` command, it takes 2 arguments: the code to generate highlighting for, and the language.<br>
 This allows certain languages to go by aliases.
-Don't worry if you mispell. Mispellings redirect to the plain text version instead od throwing errors.
+Don't worry if you mispell. Mispellings redirect to the plain text version instead of throwing errors.
 
 ## Documentation
 
@@ -57,6 +57,32 @@ Don't worry if you mispell. Mispellings redirect to the plain text version inste
 
 `Syntax7.util.tohex(num:number)` Converts a 4-digit decimal to a HEX number. Only exisits on the Micro:bit edition.
 
+
+## Alias List
+
+`javascript`
+
+> `javascript,js,ecma,ecmascript`
+
+`python`
+
+> `python,py,py3`
+
+`html`
+
+> `html`
+
+`ini`
+
+> `ini`
+
+`json`
+
+> `json`
+
+`md`
+
+> `md`
 
 ##  How to use custom highlighting
 We've switched to spans. This is for compatibility in IE8 and lower, which doesn't support custom tags. Instead of inline styling, however, we use class names. Just add a `.` (eg `.kw7` instead of `kw7`) and you'll be good to go! 
