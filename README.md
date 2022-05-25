@@ -30,6 +30,7 @@ We've switched to spans. This is for compatibility in IE8 and lower, which doesn
 `integer7` - An integer, decimal, float, or number.<br>
 `tick7` - Used for the backtick-type strings in ES6. Only used in v0.0.1
 `insert7` - Used for content between the brackets in backtick-type strings in ES6 (eg `` `my string${0}` ``)
+`kw8` - a second keyword. This is built-in functions in Python, tag content in HTML, and most text in INI.
 
 
 ## Supported Platforms
@@ -51,7 +52,6 @@ We've switched to spans. This is for compatibility in IE8 and lower, which doesn
 ## Live Demo
 
 For a live demo, see https://syntax7.awesomecrater.repl.co
+
 Note: the live demo does NOT work in IE5 due to CSS issues (unless you remove the textareas).
-[https://ie7.ieonchrome.com/
-](https://ie7.ieonchrome.com/#https://syntax7.awesomecrater.repl.co/)
 
