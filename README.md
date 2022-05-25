@@ -34,11 +34,16 @@ We've switched to spans. This is for compatibility in IE8 and lower, which doesn
 
 ## Supported Platforms
 
-* Chrome 99 and above
+* Chrome 15 and above
+* IE5 and above
+* Edge 12 and above
+* Safari(Windows) 4 and above
+* Firefox 3.6 and above
+* Opera 11.5 and above
+* Safar(Mac) 6 and above
+* Samsung Internet 16 and above
 * Brave 1.0 and above
-* Firefox 100 and above
-* IE7 or higher
-* Micro:bit via MakeCode Editor
+* Yandex Browser 14 and above
 
 
 
