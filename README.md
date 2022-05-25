@@ -15,13 +15,47 @@ It returns generated HTML, eg:
 <kw7>var</kw7>&nbsp;thing=0;&nbsp; <comment7>//&nbsp;your&nbsp;code&nbsp;here</comment7>
 ```
 
-## There's some more in v0.0.4
+## See What's Arrived in 0.0.5
 
-* **not not a not** in Python mode, we've added the "not" keyword.
-* **Syntax7 in IE7** yes, Syntax7 works all the way down to IE5(tested)
-* **More languages** we've added 2 new languages: HTML and INI.
-* **The second keyword** theres a second keyword, which isn't always a keyword.
-* **Demo in IE7???** In previous versions, the demo would only work in IE9 and newer. Now, it works down to IE7 (and possibly IE6)
+### The Language Suite
+You now have lots of options to choose from: JavaScript, Python, HTML, JSON, INI, or MarkDown.
+
+Don't feel like writing code? There's a plain text version, too, at `Syntax7.util.none`
+### Markown is here
+Edit markdown with color-coded headers, bold/italic sections, and blocks of code.
+### Kw8 in JSON
+The JSON highlighting is literally a stripped-down version of JavaScript. But we changed some things:<br>
+the `true` and `false` keywords render as `KW8` instead of `KW7` in JSON mode!
+### Still Supporting
+Syntax7 itself is still supported in IE5+, and the demo is still being supported in IE7+
+### From
+Using the `Syntax.util.from` command, it takes 2 arguments: the code to generate highlighting for, and the language.<br>
+This allows certain languages to go by aliases.
+Don't worry if you mispell. Mispellings redirect to the plain text version instead od throwing errors.
+
+## Documentation
+
+`Syntax7.javascript(code:string)` Colors JavaScript.
+
+`Syntax7.python(ts:string)` Colors Python.
+
+`Syntax7.html(ts:string)` Colors HTML5.
+
+`Syntax7.md(ts:string)` Colors MarkDown.
+
+`Syntax7.ini(ts:string)` Colors INI.
+
+`Syntax7.json(code:string)` Colors JSON.
+
+`Syntax7.util.from(raw:strimg,language?:string)` Colors code based on a language name or alias, resorting to plain text.
+
+`Syntax7.util.none(code:string)` Plain text mode. Can be used as an alias for *Syntax7.util.escape*.
+
+`Syntax7.util.escape(text:string)` Escape HTML. Used internaly.
+
+`Syntax7.util.isNumber(text:string)` Returns true if the specified string is a number. Used internaly.
+
+`Syntax7.util.tohex(num:number)` Converts a 4-digit decimal to a HEX number. Only exisits on the Micro:bit edition.
 
 
 ##  How to use custom highlighting
