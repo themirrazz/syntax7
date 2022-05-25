@@ -44,11 +44,14 @@ We've switched to spans. This is for compatibility in IE8 and lower, which doesn
 * Samsung Internet 16 and above
 * Brave 1.0 and above
 * Yandex Browser 14 and above
+* Border 1.10 and above
 
 
 
 ## Live Demo
 
 For a live demo, see https://syntax7.awesomecrater.repl.co
-
+Note: the live demo does NOT work in IE5 due to CSS issues (unless you remove the textareas).
+[https://ie7.ieonchrome.com/
+](https://ie7.ieonchrome.com/#https://syntax7.awesomecrater.repl.co/)
 
