@@ -17,13 +17,15 @@ It returns generated HTML, eg:
 
 ## There's some more in v0.0.4
 
-* **some NEW keywords** in javascript, we've added the `new` keyword!
-* **Micro:bit Update** we've updated all keywords to the micro:bit, and added Python!
-* **More support** This now works all the way down to IE7! Styling may not work, due to IE's CSS.
+* **not not a not** in Python mode, we've added the "not" keyword.
+* **Syntax7 in IE7** yes, Syntax7 works all the way down to IE5(testes)
+* **More languages** we've added 2 new languages: HTML and INI.
+* **The second keyword** theres a second keyword, which isn't always a keyword.
+* **Demo in IE7???** In previous versions, the demo would only work in IE9 and newer. Now, it works down to IE7 (and possibly IE6)
 
 
 ##  How to use custom highlighting
-We've switched to spans. This is for compatibility in IE8 and lower, which doesn't support custom tags. Instead of inline styling, however, we use class names. Just add a `.` (eg `.kw7` instead of `kw7`) and you'll be good to go! The demo doesn't work in IE7, we aren't sure about the actuall parser.
+We've switched to spans. This is for compatibility in IE8 and lower, which doesn't support custom tags. Instead of inline styling, however, we use class names. Just add a `.` (eg `.kw7` instead of `kw7`) and you'll be good to go! 
 
 `kw7` - A keyword.<br>
 `string7` - A string.<br>
@@ -55,3 +57,11 @@ For a live demo, see https://syntax7.awesomecrater.repl.co
 
 Note: the live demo does NOT work in IE5 due to CSS issues (unless you remove the textareas).
 
+
+
+### Results: Syntax7 v Codemirror v Monaco
+|            | Supports IE | Find-and-replace | Standalone Highlighting | Customizable Style |
+|------------|-------------|------------------|-------------------------|--------------------|
+| Monaco     | No          | Yes              | No                      | Somewhat           |
+| Codemirror | IE8+        | Needs Addon      | No                      | Yes                |
+| Syntax7    | IE5.5+      | No               | Yes                     | Yes                |
