@@ -18,7 +18,7 @@ It returns generated HTML, eg:
 ## There's some more in v0.0.4
 
 * **not not a not** in Python mode, we've added the "not" keyword.
-* **Syntax7 in IE7** yes, Syntax7 works all the way down to IE5(testes)
+* **Syntax7 in IE7** yes, Syntax7 works all the way down to IE5(tested)
 * **More languages** we've added 2 new languages: HTML and INI.
 * **The second keyword** theres a second keyword, which isn't always a keyword.
 * **Demo in IE7???** In previous versions, the demo would only work in IE9 and newer. Now, it works down to IE7 (and possibly IE6)
